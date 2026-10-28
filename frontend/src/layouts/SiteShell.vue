@@ -1,15 +1,15 @@
-<script setup></script>
+<script setup>
+import SiteFooter from "../components/SiteFooter.vue"
+import SiteHeader from "../components/SiteHeader.vue"
+</script>
 
 <template>
-  <div class="min-h-svh">
-    <header class="border-b border-line">
-      <div class="mx-auto flex max-w-5xl items-baseline justify-between px-5 py-5">
-        <p class="font-serif text-xl tracking-tight text-ink">ATLAS</p>
-        <p class="text-sm text-mute">Kerangka proyek</p>
-      </div>
-    </header>
-    <main class="mx-auto max-w-5xl px-5 py-12">
+  <div class="flex min-h-svh flex-col">
+    <a class="skip-link" href="#konten">Lewati ke konten utama</a>
+    <SiteHeader />
+    <main id="konten" class="flex-1">
       <slot />
     </main>
+    <SiteFooter />
   </div>
 </template>

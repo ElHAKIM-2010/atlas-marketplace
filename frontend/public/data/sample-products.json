@@ -1,0 +1,32 @@
+[
+  {
+    "id": "audio-01",
+    "name": "Headphone over-ear",
+    "category": "elektronik",
+    "description": "Contoh produk audio untuk menguji tampilan."
+  },
+  {
+    "id": "busana-01",
+    "name": "Kemeja linen lengan panjang",
+    "category": "busana",
+    "description": "Contoh produk busana untuk menguji tampilan."
+  },
+  {
+    "id": "rumah-01",
+    "name": "Mug keramik",
+    "category": "rumah",
+    "description": "Contoh produk rumah untuk menguji tampilan."
+  },
+  {
+    "id": "olahraga-01",
+    "name": "Sepatu sneakers putih",
+    "category": "olahraga",
+    "description": "Contoh produk olahraga untuk menguji tampilan."
+  },
+  {
+    "id": "harian-01",
+    "name": "Botol minum",
+    "category": "harian",
+    "description": "Contoh produk harian untuk menguji tampilan."
+  }
+]
